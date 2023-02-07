@@ -2,6 +2,7 @@ namespace WebApplication1
 {
     public class WeatherForecast
     {
+        //TEST
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }
