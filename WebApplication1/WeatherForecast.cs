@@ -11,6 +11,7 @@ namespace WebApplication1
         //Temperatura en grados Fahrenheit
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
+        //Resumen
         public string? Summary { get; set; }
     }
 }
